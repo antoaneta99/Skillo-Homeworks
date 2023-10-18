@@ -30,7 +30,7 @@ print(result)
 # Create a module named `geometry` with functions to calculate the area of common
 # shapes like a square, rectangle, triangle, and circle. Import this module and use it to calculate
 # the areas of different shapes.
-import geometry
+from geometry import *
 square_area = geometry.square_area(5)
 print("Area of square:", square_area)
 
