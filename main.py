@@ -84,13 +84,20 @@ print("Queue: ", queue)
 
 
 # 7. Create a dictionary that maps students to their bank account number. Some students may have multiple bank accounts.
+def add_bank_accounts(student_bank_accounts, student_name, account_numbers):
+    if students_acc[student_name].extend(account_numbers)
+    else:
+        students_acc[student_name] = account_numbers
+        
 students_acc = {
     'Radoslav': ['5657556567677', '555768678'],
     'Ani': ['123456789', '1234777777', '7737372872'],
     'Gabi': ['636499367'],
     'Velislav': []
 }
-
+add_bank_accounts(students_acc, "Rosen", ["478437843874378"])
+for student, acc in students_acc.items():
+    print(f"{student}'s bank account: {acc}.")
 
 # 8. Think of a function that can hash lists. Implement it and test it.
 def hash_function(input_list):
