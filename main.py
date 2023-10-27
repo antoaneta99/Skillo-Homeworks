@@ -250,7 +250,7 @@ class Employee(ABC):
     def __init__(self, name, salary):
         self.__name = name
         self.__salary = salary
-        self.__message = None
+        self._message = None
 
     def send_mess(self, message):
         self._message = message
